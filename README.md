@@ -1,12 +1,20 @@
-# [Topical Shifts in the Dark Web: A Longitudinal Analysis of Content in Cybercrime Forums and Marketplaces]
+This is the repository of the paper _"Topical Shifts in the Dark Web: A Longitudinal Analysis of Content from the Cybercrime Ecosystem"_, accepted to the WACCO 2026: the 8th Workshop on Attackers and Cybercrime Operations Co-held with IEEE European Symposium on Security and Privacy 2026 ([WACCO'26](https://www.wacco-workshop.org/)).
 
-This repository contains the anonymized artifacts accompanying a submission to **WACCO 2026**.
+If you use any of our resources, you are kindly invited to cite our paper:
 
-## Overview
+```
+@inproceedings{ricaldi2025darkweb,
+    author = {Ricaldi, Roy and Schäfer, Maximilian and Zech, Philipp and Allodi, Luca and Groner, Raffaela and Pekaric, Irdin},
+    title = {{Topical Shifts in the Dark Web: A Longitudinal Analysis of Content from the Cybercrime Ecosystem}},
+    booktitle = {WACCO 2026: the 8th Workshop on Attackers and Cybercrime Operations Co-held with IEEE European Symposium on Security and Privacy 2026},
+    year = {2026}
+}
 
-This repository provides all scripts and notebooks required to reproduce the data processing, topic modeling, and analysis conducted in the paper. The workflow covers text extraction, preprocessing, multiple topic modeling approaches, and evaluation across several research questions.
+```
 
-All materials are anonymized for the double-blind review process.
+# Description
+
+This is an official repository for the supplementary materials for the paper "The Dark Side of the Web: Towards Understanding Various Data Sources in Cyber Threat Intelligence". It contains the following files:
 
 ---
 
@@ -101,7 +109,6 @@ All experiments are implemented as Jupyter notebooks. The typical workflow is:
 
 ## Notes
 
-- This repository is anonymized for peer review.
 - External dependencies (e.g., APIs, pretrained models) are referenced within the notebooks where applicable.
 - Paths and data sources may need adjustment depending on the execution environment.
 
@@ -109,4 +116,4 @@ All experiments are implemented as Jupyter notebooks. The typical workflow is:
 
 ## Contact
 
-Contact information will be provided after the review process.
+Contact: irdin.pekaric@uni.li
